@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	background: #ebeff5;
+	text-align: center;
+}
+/*footer*/
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	font-size: 15px;
+	background-color: #252525;
+	text-align: left;
+}
+.footer div span a{
+	color: #999999;
+	text-decoration: none;
+}
+.footer div span a:hover{
+	color: #e0e0e0;
+}
