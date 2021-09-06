@@ -59,3 +59,152 @@ body {
 .imageBox:hover .hoverImg {
   display: block;
 }
+/*-------------------------Contact---------------------------*/
+.con-body::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  /* background: #b185db; */
+  clip-path: polygon(84% 8%, 100% 20%, 50% 100%, 110% 80%);
+}
+.container2{
+  z-index: 12;
+  max-width: 1050px;
+  width: 100%;
+  background: #;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container2 .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+.content .image-box{
+  max-width: 55%;
+}
+.content .image-box img{
+  width: 100%;
+}
+.content .topic{
+  font-size: 30px;
+  font-weight: 500;
+  color: #8fafcc;
+}
+.content form{
+  width: 40%;
+  margin-right: 30px;
+}
+.content .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.content .input-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 16px;
+  background: #c7d3e9;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.content .input-box input:focus,
+.content .input-box input:valid{
+  border-color: #8face2;
+  background-color: #c7d3e9;
+}
+.content .input-box label{
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #5a7d9b;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.content .input-box input:focus ~ label,
+.content .input-box input:valid ~ label{
+  top: 0;
+  left: 12px;
+  display: 14px;
+  color: #fff;
+  background: #8face2;
+}
+.content .message-box{
+  min-height: 100px;
+  position: relative;
+}
+.content .message-box textarea{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  background: #c4d3ee;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  border-color: #b9caeb;
+  transition all 0.3s ease;
+}
+.content .message-box textarea:focus{
+  border-color: #aabfe6;
+  /*background-color: /*#fff*/ ;*/
+}
+.content .message-box label{
+  position: absolute;
+  font-size: 16px;
+  color:#7c93be;
+  left: 18px;
+  top: 6px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.content .message-box textarea:focus ~ label{
+  left: 12px;
+  top: -10px;
+  color:#fff;
+  font-size: 14px;
+  background: #7c93be;
+}
+.content .input-box input[type="submit"]{
+  color: #fff;
+  background: #8fafcc;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border-color: none;
+}
+.content .input-box input[type="submit"]:hover{
+  background-color: rgb(68, 89, 128);
+}
+@media (max-width:1000px) {
+  .content .image-box{
+    max-width: 70%;
+  }
+  .content{
+    padding: 10px 0;
+  }
+}
+@media (max-width:900px) {
+  .content .image-box{
+    display: none;
+  }
+  .content form{
+    width: 100%;
+    margin-left: 30px;
+  }
+}
