@@ -67,8 +67,8 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  /* background: #b185db; */
-  clip-path: polygon(84% 8%, 100% 20%, 50% 100%, 110% 80%);
+  background: #b185db;
+  /* clip-path: polygon(84% 8%, 100% 20%, 50% 100%, 110% 80%); */
 }
 .container2{
   z-index: 12;
@@ -94,7 +94,7 @@ body {
 .content .topic{
   font-size: 30px;
   font-weight: 500;
-  color: #8fafcc;
+  color: #607385;
 }
 .content form{
   width: 40%;
