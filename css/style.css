@@ -35,15 +35,18 @@ body {
     background: linear-gradient(to right top, #65dfc9, #d2b7e5);
     border-radius: 2rem;
 }
-.container{
+main {
+  margin-top: 2rem;
+}
+/* .container{
     background: white;
     margin-top: 2rem;
     min-height: 100vh;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     backdrop-filter: blur(2rem);
-}
+} */
 .imageBox {
   position: relative;
   float: left;
@@ -71,11 +74,11 @@ body {
   /* clip-path: polygon(84% 8%, 100% 20%, 50% 100%, 110% 80%); */
 }
 .container2{
-  z-index: 12;
-  max-width: 1050px;
-  width: 100%;
-  background: #;
-  border-radius: 12px;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  border-radius: 2rem;
   margin: 0 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
@@ -83,7 +86,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 20px;
+  
 }
 .content .image-box{
   max-width: 55%;
