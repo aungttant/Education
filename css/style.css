@@ -143,6 +143,7 @@ main {
   display: 14px;
   color: #fff;
   background: #8face2;
+  font-size: 12PX;
 }
 .content .message-box{
   min-height: 100px;
@@ -160,26 +161,29 @@ main {
   border-color: #b9caeb;
   transition all 0.3s ease;
 }
+
 .content .message-box textarea:focus{
   border-color: #aabfe6;
-  /*background-color: /*#fff*/ ;*/
 }
+
 .content .message-box label{
   position: absolute;
   font-size: 16px;
-  color:#7c93be;
+  color:#8face2;
   left: 18px;
   top: 6px;
   pointer-events: none;
   transition: all 0.3s ease;
 }
+
 .content .message-box textarea:focus ~ label{
   left: 12px;
   top: -10px;
   color:#fff;
-  font-size: 14px;
-  background: #7c93be;
+  font-size: 12px;
+  background: #8face2;
 }
+
 .content .input-box input[type="submit"]{
   color: #fff;
   background: #8fafcc;
@@ -191,9 +195,11 @@ main {
   transition: all 0.3s ease;
   border-color: none;
 }
+
 .content .input-box input[type="submit"]:hover{
   background-color: rgb(81, 100, 126);
 }
+
 @media (max-width:1000px) {
   .content .image-box{
     max-width: 70%;
@@ -202,6 +208,7 @@ main {
     padding: 10px 0;
   }
 }
+
 @media (max-width:900px) {
   .content .image-box{
     display: none;
