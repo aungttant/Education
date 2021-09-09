@@ -97,7 +97,7 @@ main {
 .content .topic{
   font-size: 2rem;
   font-weight: 500;
-  color: #607385;
+  color: #394d5f;
 }
 .content form{
   width: 40%;
@@ -192,7 +192,7 @@ main {
   border-color: none;
 }
 .content .input-box input[type="submit"]:hover{
-  background-color: rgb(68, 89, 128);
+  background-color: rgb(81, 100, 126);
 }
 @media (max-width:1000px) {
   .content .image-box{
@@ -252,3 +252,8 @@ main {
   padding:2rem 9%;
   position: cover;
 } */
+@media (max-width:1000px) {
+  .icons-container .icons{
+    max-width: 70%;
+    margin-left: 77px;
+  }
