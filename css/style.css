@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     min-height: 100vh;
     background: linear-gradient(to right top, #65dfc9, #d2b7e5);
@@ -264,3 +265,4 @@ main {
     max-width: 70%;
     margin-left: 77px;
   }
+}
