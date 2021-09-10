@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     min-height: 100vh;
     background: linear-gradient(to right top, #65dfc9, #d2b7e5);
@@ -215,7 +216,7 @@ main {
 .content .topic{
   font-size: 2rem;
   font-weight: 500;
-  color: #607385;
+  color: #394d5f;
 }
 .content form{
   width: 40%;
@@ -261,6 +262,7 @@ main {
   display: 14px;
   color: #fff;
   background: #8face2;
+  font-size: 12PX;
 }
 .content .message-box{
   min-height: 100px;
@@ -278,26 +280,29 @@ main {
   border-color: #b9caeb;
   transition all 0.3s ease;
 }
+
 .content .message-box textarea:focus{
   border-color: #aabfe6;
-  /*background-color: /*#fff*/ ;*/
 }
+
 .content .message-box label{
   position: absolute;
   font-size: 16px;
-  color:#7c93be;
+  color:#8face2;
   left: 18px;
   top: 6px;
   pointer-events: none;
   transition: all 0.3s ease;
 }
+
 .content .message-box textarea:focus ~ label{
   left: 12px;
   top: -10px;
   color:#fff;
-  font-size: 14px;
-  background: #7c93be;
+  font-size: 12px;
+  background: #8face2;
 }
+
 .content .input-box input[type="submit"]{
   color: #fff;
   background: #8fafcc;
@@ -309,9 +314,11 @@ main {
   transition: all 0.3s ease;
   border-color: none;
 }
+
 .content .input-box input[type="submit"]:hover{
-  background-color: rgb(68, 89, 128);
+  background-color: rgb(81, 100, 126);
 }
+
 @media (max-width:1000px) {
   .content .image-box{
     max-width: 70%;
@@ -320,6 +327,7 @@ main {
     padding: 10px 0;
   }
 }
+
 @media (max-width:900px) {
   .content .image-box{
     display: none;
@@ -332,40 +340,47 @@ main {
 
 .contact .icons-container{
   gap:2rem;
-  box-sizing: 0rem;
   padding-bottom: 9%;
   padding-top: 9%;
 }
 
+.icons-container .icons:hover{
+  box-shadow: 12px 12px 2px 1px rgba(79, 79, 212, 0.2);
+  /* transform: translateY(10px) scale(0.5); */
+  transition: 0.8s;
+}
 .contact .icons-container .icons{
   padding: 2rem;
   text-align: center;
-  border: inset;
+  border: outset;
   border-radius: 1.5rem;
-  /* box-shadow: var(--box-shadow); */
+  size: 1ch;
 }
 
 .contact .icons-container .icons i{
   height: 5rem;
   width: 6rem;
   line-height: 6rem;
-  font-size: 2.5rem;
-  color: var(--main-color);
-  background: var(--bg);
+  font-size: 5rem;
 }
 
 .contact .icons-container .icons h3{
-  color:var(--black);
   padding: 1rem 0;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .contact .icons-container .icons p{
   color:var(--light-color);
   line-height: 1.8;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 /* section{
   padding:2rem 9%;
-
+  position: cover;
 } */
+@media (max-width:1000px) {
+  .icons-container .icons{
+    max-width: 70%;
+    margin-left: 77px;
+  }
+}
