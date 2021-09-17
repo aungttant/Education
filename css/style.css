@@ -271,7 +271,7 @@ section{
   padding-top: 8px;
 }
 
-.container-1{
+/* .container-1{
   background: white;
   margin-top: 2rem;
   min-height: 100vh;
@@ -309,7 +309,7 @@ padding:20px 30px;
 font-weight:300;
 font-size:25px;
 margin-bottom:20px;
-/* padding: 20px 30px; */
+padding: 20px 30px;
 }
 .section-container .columns.content .content-container p
 {
@@ -355,7 +355,7 @@ margin-bottom:5px;
   border-radius: 2rem;
   backdrop-filter: blur(2rem);
 
-}
+} */
 
 /* .fadedfx {
   background-color: #fe5652;
