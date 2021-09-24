@@ -329,6 +329,7 @@ height:250%;
 display:block;
 order:2;
 width:100%;
+
 }
 .section-container .columns.content .content-container
 {
@@ -349,6 +350,7 @@ margin-bottom:5px;
   backdrop-filter: blur(2rem);
 
 }
+
 
 /* .fadedfx {
   background-color: #fe5652;
