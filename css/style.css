@@ -266,6 +266,23 @@ section{
   padding-top: 8px;
 }
 
+.card {
+  background-color: #c7ebe9;
+  border-radius: 30px 20px;
+  width: 100%;
+  padding: 10px;
+  
+}
+.card .video{
+  padding: 10px;
+  width: 100%;
+  padding-bottom: -20px;
+  margin-bottom: auto;
+}
+.card .video iframe{
+  width: 60%;
+}
+
 
 .section-container
 {
@@ -308,8 +325,9 @@ margin-bottom:15px;
 font-weight:100;
 font-size:16px;
 margin-bottom:15px;
-margin-bottom:15px;
 text-align:justify;
+line-height: 24px;
+
 
 }
 @media screen and (max-width:767px)
@@ -334,13 +352,26 @@ width:100%;
 .section-container .columns.content .content-container
 {
 margin-bottom: 10px;
+padding: 20px;
 }
 .section-container .columns.content .content-container h5
 {
 margin-bottom:5px;
 }
+
+/* .container-1 .card-body .card-titel{
+font-size: 20px;
+font-weight: 200;
+
 }
-.container-2{
+.container-1 .card-body .card-text{
+  font-size: 18px;
+  /* font-weight: 40; */
+} */
+
+
+
+.container-1{
   background: white;
   margin-top: 2rem;
   min-height: 100vh;
@@ -350,48 +381,76 @@ margin-bottom:5px;
   backdrop-filter: blur(2rem);
 
 }
-
-
-/* .fadedfx {
-  background-color: #fe5652;
-  visibility: hidden;
-}
-
-.fadeIn {
-  animation-name: fadeIn;
-  -webkit-animation-name: fadeIn;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
-  visibility: visible !important;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1;
-  } */
-}
-/* body{
-  background-color: #3d3d3d;
-  padding: 0px;
-  margin:0px;
-  width:100%;
-  height:100vh;
-  font-family: 'Lato';
+/* .popular {
+  background-image: url("../image/about edu-14.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 180px;
+  padding-bottom: 340px;
 } */
+/* .popular:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background:linear-gradient(rgba(113, 181, 240, 0.5),rgba(221, 212, 221, 0.4)),
+  url("../image/about edu-14.jpg")center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+} */
+.all-image {
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.all-image .single-img {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.all-image .single-img .img-thumb {
+  height: 410px;
+}
+.all-image .single-img .img-thumb img {
+  width: 100%;
+  height: 100%;
+}
+/* .all-image .single-img .img-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(2, 58, 110, 0.6);
+  transform: translateX(-50%);
+  transition: 0.5s;
+  opacity: 0;
+  overflow: hidden;
+} */
+/* .all-image .single-img .img-hover .title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+} */
+/* .all-image .single-img .img-hover h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+} */
+/* .all-image .single-img:hover .img-hover {
+  transform: translateX(0%);
+  opacity: 1;
+} */
+
+
 
 .container-1{
   background: white;
@@ -404,15 +463,6 @@ margin-bottom:5px;
 
 }
 
-.card {
-  background-color: #c7ebe9;
-  border-radius: 30px 20px;
-  width: 100%;
-  padding: 20px;
-}
-.video-container{
-  padding: 20px;
-}
 
  /* .wrapper{
   position: absolute;
