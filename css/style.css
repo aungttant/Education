@@ -63,9 +63,6 @@ main {
 .imageBox:hover .hoverImg {
   display: block;
 }
-
-
-/*-------------------------About---------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -371,7 +368,7 @@ font-weight: 200;
 
 
 
-.container-1{
+/* .container-1{
   background: white;
   margin-top: 2rem;
   min-height: 100vh;
@@ -461,7 +458,7 @@ font-weight: 200;
   border-radius: 2rem;
   backdrop-filter: blur(2rem);
 
-}
+} */
 
 
  /* .wrapper{
@@ -547,6 +544,7 @@ font-weight: 200;
   transform: scale(.95) translateX(-5px);
   transition: all .5s ease-in-out;
 }  */
+
 
 /*-------------------------Contact---------------------------*/
 .con-body::before{
