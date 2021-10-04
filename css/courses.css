@@ -1,17 +1,9 @@
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-html {
-  font-size: 88%;
-}
+
 body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    color: var(--black);
   }
 .card-front__heading {
     font-size: 1.5rem;
@@ -31,7 +23,6 @@ body {
     padding-bottom: 1rem; 
     width: 100%;
   }
-  
 
   .inside-page__heading,
   .card-front__text-view {
@@ -309,11 +300,7 @@ body {
     color: #111;
     text-decoration: none;
   }
-  body {
-    color: var(--black);
-    font: 1rem/1.3 sans-serif;
-  }
-  
+
   .author-archive {
     padding: 1.5rem;
   }
@@ -463,11 +450,12 @@ body {
   
   @media screen and (max-width: 650px) {
     html {
-      font-size: 14px;
+      font-size: 18px;
     }
   
     .posts {
-      grid-template-columns: 208px 208px;
+      grid-template-columns: 190px 190px;
+      justify-content: center;
     }
   }
  
