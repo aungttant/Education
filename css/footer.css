@@ -7,7 +7,8 @@
 }
 
 .footer-distributed {
-  background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
+  /* background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3)); */
+  background: linear-gradient(to left bottom , #65c7df, #b7cce5, #acade4);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
